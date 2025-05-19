@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Personal Blog Platform</title>
+  <title>Interactive Personal Blog</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
     <h1>My Blog</h1>
 
+    <!-- Blog Post Form -->
     <form id="post-form">
       <div class="form-group">
         <label for="title">Title</label>
@@ -26,12 +27,10 @@
       <button type="submit">Add Post</button>
     </form>
 
-    <section id="posts-container">
-      <!-- Posts will be rendered here -->
-    </section>
+    <!-- Section where blog posts will be dynamically added -->
+    <section id="posts-container"></section>
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
